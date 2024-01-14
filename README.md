@@ -1,2 +1,2 @@
 # NICR
-The paper ``NICR: Recovering Indirect Calls from Binaries with Neural Networks"
+The paper "NICR: Recovering Indirect Calls from Binaries with Neural Networks"
