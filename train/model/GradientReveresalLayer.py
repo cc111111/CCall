@@ -27,7 +27,7 @@ class GradientReversalLayer(Layer):
 		"""
 		这是梯度反转层的初始化函数
 		:param x: 输入张量
-		:param alpha: alpha系数，默认为1
+		:param alpha: alpha系数
 		:return:
 		"""
 		return gradient_reversal(x,alpha)
