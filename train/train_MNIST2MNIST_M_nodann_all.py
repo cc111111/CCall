@@ -37,7 +37,7 @@ def run_main():
     logs_dir = os.path.abspath(os.getcwd())+"/logs/new/SGD-lr={0}-momentum={1}/batch_size={2}".format(init_learning_rate,momentum_rate,batch_size)
     config_dir = os.path.abspath(os.getcwd())+"/config/models/SGD-lr={0}-momentum={1}/batch_size={2}".format(init_learning_rate,momentum_rate,batch_size)
     
-    source_dataset_path = "./data/C_test_positive.pkl"
+    source_dataset_path = "./data/C_train_positive.pkl"
     target_dataset_path = "./data/C_test_positive.pkl" # for test set
     
     cfg = config(embed_model_path = embed_model_path,
