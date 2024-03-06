@@ -44,7 +44,7 @@ def run_main():
     logs_dir = os.path.abspath(os.getcwd())+"/logs/new/SGD-lr={0}-momentum={1}/batch_size={2}".format(init_learning_rate,momentum_rate,batch_size)
     config_dir = os.path.abspath(os.getcwd())+"/config/models/SGD-lr={0}-momentum={1}/batch_size={2}".format(init_learning_rate,momentum_rate,batch_size)
     
-    source_dataset_path = "./data/C_test_positive.pkl"
+    source_dataset_path = "./data/C_train_positive_.pkl"
     target_dataset_path = "./data/C_test_positive.pkl" 
     #test_dataset_path = "/wangjuan/dann-tf/dataset/results_sim/clang_O2/C_test_gobmk_positive.pkl"
     
